@@ -1,0 +1,10 @@
+[project]
+name = "tine-data-scientist"
+version = "0.1.0"
+description = "Projet ML médical"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "shap",
+    "numpy",
+]
