@@ -9,4 +9,10 @@ Ce projet est un pipeline de Machine Learning pour l'analyse de données médica
 * Sur **Linux et WSL**, pour installer `uv`, utilisez le script officiel :
   ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh
+  ## Запуск проекта (Lancement du projet)
+
+Подготовьте данные, обучите модель и запустите скрипт:
+
+```bash
+bash scripts/run.sh mon_modele data/raw/donnees.csv
   
